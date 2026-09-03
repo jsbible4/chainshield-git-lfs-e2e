@@ -10,8 +10,4 @@ issue 1471. Both `*.bin` files are tracked by Git LFS.
 The repository stores only fixtures and Git LFS pointers. ChainShield endpoint
 URLs and credentials must be configured locally and must never be committed.
 
-## Safety
 
-Do not run the actual ChainShield E2E flow until the OSV synchronization issue
-has been declared stable. Use a fresh clone or isolated client cache for each
-cold/warm phase.
